@@ -1,0 +1,295 @@
+.home-page-2-wrapper {
+
+    height: 200px;
+}
+
+.home-page-2-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-2 {
+    margin-right: 20px;
+    padding: 10px;
+ 
+}
+
+.home-page-3-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-3 {
+
+    flex: 0 0 calc(25% - 20px);
+  
+    margin: 0 10px;
+   
+    text-align: center;
+ 
+    padding: 10px;
+    max-width: 400px;
+
+
+
+}
+
+.section-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-3 h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.section-3 div:nth-child(3) {
+    margin: 0 20px;
+}
+
+.section-3 button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    color: #0067b8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section-3 button:hover {
+    text-decoration: underline;
+}
+
+.button-wrap {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttoo {
+    padding: 2px;
+}
+
+.home-page-4-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-4-wrapper>div {
+    position: relative;
+}
+
+.section-4 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
+    padding: 20px;
+}
+
+.section-4 h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.section-4 p {
+    margin-bottom: 10px;
+}
+
+.section-4 button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #0078d4;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section-4 button:hover {
+    background-color: #005a9e;
+}
+
+.dowload-button{
+color: #ffff;
+padding: 10px 12px;
+margin: 8px 0;
+background-color: #0067B8;
+
+}
+
+
+
+.home-page-5-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-5 {
+
+    flex: 0 0 calc(25% - 20px);
+  
+    margin: 0 10px;
+    
+    text-align: center;
+    padding: 10px;
+    max-width: 400px;
+    
+
+
+}
+
+.section-5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-5 h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.section-5 div:nth-child(3) {
+    margin: 0 20px;
+}
+
+.section-5 button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    color: #0067b8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section-5 button:hover {
+    text-decoration: underline;
+}
+
+.bizi-takip-et{
+
+        text-align: left; 
+        color: black;
+        padding: 80px;
+        max-width: 80%;
+      
+      
+}
+
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+  }
+  
+  .back-to-top-button button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .back-to-top-button button:hover {
+    background-color: #005a9e;
+  }
+  
+  .section-3 a {
+    text-decoration: none;
+}
+.section-4 a {
+    text-decoration: none;
+}
+.section-5 a {
+    text-decoration: none;
+}
+.section-2 a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home-page-2-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section-2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .home-page-3-wrapper {
+        margin-top: 10px;
+    }
+
+    .section-3 {
+        flex: 0 0 calc(50% - 20px);
+        margin: 0 5px;
+    }
+
+    .section-3 h2 {
+        font-size: 1.2em;
+    }
+
+    .home-page-4-wrapper {
+        padding: 20px;
+    }
+
+    .section-4 {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .home-page-5-wrapper {
+        margin-top: 10px;
+    }
+
+    .section-5 {
+        flex: 0 0 calc(50% - 20px);
+        margin: 0 5px;
+    }
+
+    .section-5 h2 {
+        font-size: 1.2em;
+    }
+
+    .bizi-takip-et {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section-3,
+    .section-5 {
+        flex: 0 0 calc(100% - 20px);
+        margin: 0 10px 20px;
+    }
+
+    .section-3 h2,
+    .section-5 h2 {
+        font-size: 1.1em;
+    }
+
+    .bizi-takip-et {
+        padding: 10px;
+        max-width: 100%;
+    }
+}

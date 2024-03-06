@@ -1,0 +1,63 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width:100%;
+  opacity: 1;
+}
+
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width:100%;
+  opacity: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}
+
+button,
+a {
+  margin-right: 10px; 
+}
+
+.dot {
+  margin-right: 5px; 
+}
+
+@media only screen and (max-width: 768px) {
+  .dot {
+    display: none;
+  }
+}
